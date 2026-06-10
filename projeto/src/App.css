@@ -1,8 +1,8 @@
 :root {
-  --primary-green: #1b4d3e;     /* Verde Copa Profundo */
-  --accent-green: #2c7a5f;      /* Verde Gramado Dinâmico */
-  --light-beige: #fdfbf7;       /* Bege de Fundo */
-  --card-beige: #f4f1de;        /* Bege de Destaque */
+  --primary-green: #1b4d3e;
+  --accent-green: #2c7a5f;
+  --light-beige: #fdfbf7;
+  --card-beige: #f4f1de;
   --white: #ffffff;
   --text-dark: #2f3e46;
 }

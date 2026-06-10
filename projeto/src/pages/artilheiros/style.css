@@ -26,7 +26,7 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Efeito de movimento rápido (Agilidade) */
+
 .card-artilheiro:hover {
     transform: scale(1.02) translateX(5px);
     box-shadow: 0 8px 25px rgba(44, 94, 59, 0.1);
