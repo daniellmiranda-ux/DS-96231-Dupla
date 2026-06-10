@@ -6,18 +6,23 @@ export default function Header() {
         <header>
             <div>
                 <Link to="/">
-                    <h1>Copa do mundo 2026</h1>
+                    <h1>Copa do Mundo 2026</h1>
                 </Link>
             </div>
 
             <nav>
-                <NavLink>
-                    <Link to="/">Home</Link>
+                <NavLink to="/">
+                    Home
                 </NavLink>
-                <NavLink>
-                    <Link to="/sobre-nos">Sobre nós</Link>
+
+                <NavLink to="/campeoes">
+                    Campeões
+                </NavLink>
+
+                <NavLink to="/artilheiros">
+                    Artilheiros
                 </NavLink>
             </nav>
         </header>
-    )
+    );
 }
