@@ -1,11 +1,11 @@
-.artilheiros-container {
+.contato-container {
     max-width: 850px;
     width: 100%;
     padding: 20px;
     animation: fadeInUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
-.artilheiros-container h1 {
+.contato-container h1 {
     font-size: 2.3rem;
     color: var(--primary-green);
     text-align: center;
@@ -13,7 +13,7 @@
     font-weight: 800;
 }
 
-.card-artilheiro {
+.card-contato {
     background: var(--white);
     display: flex;
     justify-content: space-between;
@@ -26,23 +26,18 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-
-.card-artilheiro:hover {
+.card-contato:hover {
     transform: scale(1.02) translateX(5px);
     box-shadow: 0 8px 25px rgba(44, 94, 59, 0.1);
     background-color: var(--light-beige);
 }
 
-.card-artilheiro h2 {
+.card-contato h2 {
     font-size: 1.3rem;
     color: var(--text-dark);
 }
 
-.card-artilheiro p {
+.card-contato p {
     font-weight: 700;
     color: var(--primary-green);
-    background: var(--card-beige);
-    padding: 6px 16px;
-    border-radius: 20px;
-    font-size: 0.95rem;
 }
