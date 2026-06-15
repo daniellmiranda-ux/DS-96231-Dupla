@@ -6,7 +6,7 @@ export default function Header() {
         <header>
             <div>
                 <Link to="/">
-                    <h1>Copa do Mundo 2026</h1>
+                    <h1>Clínica Maria Albano</h1>
                 </Link>
             </div>
 
@@ -15,12 +15,24 @@ export default function Header() {
                     Home
                 </NavLink>
 
-                <NavLink to="/campeoes">
-                    Campeões
+                <NavLink to="/servicos">
+                    Serviços
                 </NavLink>
 
-                <NavLink to="/artilheiros">
-                    Artilheiros
+                <NavLink to="/corpo-clinico">
+                    Corpo Clínico
+                </NavLink>
+
+                <NavLink to="/quem-somos">
+                    Quem Somos
+                </NavLink>
+
+                <NavLink to="/blog">
+                    Blog
+                </NavLink>
+
+                <NavLink to="/contato">
+                    Contato
                 </NavLink>
             </nav>
         </header>
